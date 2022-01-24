@@ -4,115 +4,87 @@ export const navigations = [
         path: '/dashboard/default',
         icon: 'dashboard',
     },
+    // {
+    //     label: 'PAGES',
+    //     type: 'label',
+    // },
     {
-        label: 'PAGES',
-        type: 'label',
-    },
-    {
-        name: 'Session/Auth',
+        name: 'Date',
         icon: 'security',
         children: [
             {
-                name: 'Sign in',
+                name: ' Edition',
                 iconText: 'SI',
                 path: '/session/signin',
             },
             {
-                name: 'Sign up',
+                name: 'Date',
                 iconText: 'SU',
                 path: '/session/signup',
             },
             {
-                name: 'Forgot Password',
+                name: 'Starting Time',
                 iconText: 'FP',
                 path: '/session/forgot-password',
             },
             {
-                name: 'Error',
+                name: 'Ending Time',
                 iconText: '404',
                 path: '/session/404',
             },
         ],
     },
+    // {
+    //     label: 'Components',
+    //     type: 'label',
+    // },
     {
-        label: 'Components',
-        type: 'label',
-    },
-    {
-        name: 'Components',
+        name: 'Candidate',
         icon: 'favorite',
-        badge: { value: '30+', color: 'secondary' },
         children: [
             {
-                name: 'Auto Complete',
+                name: 'Post',
                 path: '/material/autocomplete',
                 iconText: 'A',
             },
             {
-                name: 'Buttons',
+                name: 'Candidate Name',
                 path: '/material/buttons',
                 iconText: 'B',
             },
             {
-                name: 'Checkbox',
+                name: 'Department',
                 path: '/material/checkbox',
                 iconText: 'C',
             },
             {
-                name: 'Dialog',
+                name: 'Semester',
                 path: '/material/dialog',
                 iconText: 'D',
             },
             {
-                name: 'Expansion Panel',
+                name: 'Addmission No.',
                 path: '/material/expansion-panel',
                 iconText: 'E',
             },
             {
-                name: 'Form',
+                name: 'If any backlogs?',
                 path: '/material/form',
                 iconText: 'F',
             },
+            
+        ],
+    },
+    {
+        name: ' Voters List',
+        icon: 'favorite',
+        children: [
             {
-                name: 'Icons',
-                path: '/material/icons',
-                iconText: 'I',
+                name: 'Post',
+                path: '/material/autocomplete',
+                iconText: 'A',
             },
-            {
-                name: 'Menu',
-                path: '/material/menu',
-                iconText: 'M',
-            },
-            {
-                name: 'Progress',
-                path: '/material/progress',
-                iconText: 'P',
-            },
-            {
-                name: 'Radio',
-                path: '/material/radio',
-                iconText: 'R',
-            },
-            {
-                name: 'Switch',
-                path: '/material/switch',
-                iconText: 'S',
-            },
-            {
-                name: 'Slider',
-                path: '/material/slider',
-                iconText: 'S',
-            },
-            {
-                name: 'Snackbar',
-                path: '/material/snackbar',
-                iconText: 'S',
-            },
-            {
-                name: 'Table',
-                path: '/material/table',
-                iconText: 'T',
-            },
+            
         ],
     },
     {
